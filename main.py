@@ -1,0 +1,20 @@
+from prettytable import PrettyTable
+
+table=PrettyTable()
+table.field_names=['S/N','Pokemon Name','Type']
+table.add_row(["1",'bulgaesaur','grass/poison'])
+table.add_row(["2",'igaesaur','grass/poison'])
+table.add_row(["3",'vaginasaur','grass/poison'])
+table.add_row(["4",'charmender','fire'])
+table.add_row(["5",'chadmelon','fire'])
+table.add_row(["6",'chapeezard','fire/flying'])
+table.add_row(["7",'squirtable','whatthe'])
+table.add_row(["8",'warturtle','whatthe'])
+table.add_row(["9",'blisteroise','whatthe'])
+table.add_row(["10",'cagaepie','bug'])
+table.add_row(["11",'weldenissus','bug'])
+table.add_row(["12",'dylanisgay','bug'])
+table.add_row(["13",'laureneislesbian','grass'])
+table.add_row(["14",'megay','grass'])
+table.add_row(["15",'pokemoniscringe','grass'])
+print(table)
